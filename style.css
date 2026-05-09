@@ -1,0 +1,127 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+header{ 
+    background-color: red;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+nav a{
+    color: white;
+    margin: 10px;
+}
+.search-bar{
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+menu-toggle{
+    font-size: 25px;
+    cursor: pointer
+}
+nav.active{
+    display: block;
+}
+.hero{
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+.slide{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+}
+.slide.active{
+    opacity: 1;
+}
+.btn {
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 10px;
+}
+.red {
+    background: red;
+    color: white;
+}
+.dark {
+    background: black;
+    color: white;
+}
+.title{
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 80px;
+}
+section{
+    padding: 20px;
+    text-align: center;
+}
+.shop-box, .restaurant-box, .cinemax-box{
+    background-color: gray;
+    margin: 10px;
+    padding: 20px;
+    display: inline-block;
+    width: 200px;
+}
+.supermarket-hero{
+    background-image: url("supermarket.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no repeat;
+}
+.restaurant-hero{
+    background-image: url("restaurant.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.cinema-hero{
+    background-image: url("cinema.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.home-hero{
+    background-image: url("mall2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.contact{
+    padding: 40px;
+    text-align: center;
+}
+.contact-info{
+    margin: 20px;
+}
+.contact-form{
+    max-width: 400px;
+    margin: auto;
+}
+.contact-form input,
+.contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+.contact-form button{
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}
